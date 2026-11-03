@@ -1,52 +1,43 @@
-<!-- Banner Pixel Art Lo-Fi Coding -->
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzh6dGR6d2RlaG54amJ6emJ5c3B6eHhuZnd5b2R2Z3h6Z3h6Z3h6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" width="100%" height="240" style="object-fit: cover; border-radius: 10px;" alt="Coding Banner" />
+
+  <!-- ANIMASI JUDUL UTAMA & SUBJUDUL -->
+  <a href="https://github.com/raztven">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=700&height=50&lines=Hi+There!+I'm+Farras+Fadhil+Hassan+%F0%9F%91%8B;Full-Stack+Web+%26+Mobile+Developer;Software+Engineering+(D4+TRPL)+Student" alt="Typing Title" />
+  </a>
+
+  <p align="center">
+    <i>Membangun aplikasi web modern, aplikasi mobile Android, dan sistem Smart IoT yang terukur.</i>
+  </p>
+
+  <!-- BARIS BADGE STATUS & SOSIAL (UI PILLS) -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Politeknik%20Negeri%20Lampung-D4%20TRPL-0f172a?style=for-the-badge&logo=google-scholar&logoColor=38bdf8" alt="Education" />
+    <img src="https://img.shields.io/badge/Role-Full--Stack%20Developer-2563eb?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Role" />
+    <img src="https://img.shields.io/badge/Location-Lampung%2C%20ID-1e293b?style=for-the-badge&logo=googlemaps&logoColor=f43f5e" alt="Location" />
+    <img src="https://komarev.com/ghpvc/?username=raztven&label=Profile%20Views&color=10b981&style=for-the-badge" alt="Views" />
+  </p>
+
 </div>
 
 <br/>
 
-<!-- Nama & Animasi Ketik -->
-<div align="center">
-  <h1>Hi there, I'm Farras Fadhil Hassan 👋</h1>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=2563EB&center=true&vCenter=true&width=550&lines=Software+Engineering+(TRPL)+Student;Full-Stack+Web+%26+Mobile+Developer;Building+Web+Apps+%26+Smart+IoT+Systems" alt="Typing SVG" />
-</div>
-
-<!-- Badge Profil Minimalis -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20Mobile-2563eb?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Lampung%2C%20Indonesia-0f172a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8" />
-  <img src="https://komarev.com/ghpvc/?username=raztven&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
-</div>
-
-<br/>
-
-<!-- Tabel Tech Stack Terstruktur -->
-<table align="center">
+<!-- ==================== BENTO GRID: PROFIL & TECH STACK ==================== -->
+<table width="100%">
   <tr>
-    <td align="center" width="33%"><b>🌐 Web & Backend</b></td>
-    <td align="center" width="33%"><b>📱 Mobile & System</b></td>
-    <td align="center" width="33%"><b>🗄️ Database & Tools</b></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=php,laravel,vue,js,tailwind,bootstrap&perline=3" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,cpp,arduino&perline=2" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=mysql,supabase,git,github,vscode&perline=3" />
-    </td>
-  </tr>
-</table>
+    <td width="52%" valign="top">
+      <h3 align="center">💻 Developer Terminal</h3>
 
-<br/>
+```yaml
+developer:
+  name: "Farras Fadhil Hassan"
+  username: "@raztven"
+  department: "Teknologi Informasi"
+  program: "D4 Teknologi Rekayasa Perangkat Lunak"
 
-<!-- Animasi Snake Kontribusi -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/raztven/raztven/output/github-snake.svg" width="100%" />
-  </picture>
-</div>
+architecture_focus:
+  - Full-Stack Web Development (Laravel & Vue 3)
+  - Native Android Development (Kotlin & Compose)
+  - Smart IoT & Automated Control Systems
+  - Relational Database & Cloud BaaS
+
+current_status: "Building impactful software & IoT solutions 🚀"
