@@ -1,0 +1,15 @@
+<svg width="1000" height="110" viewBox="0 0 1000 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .w1 { animation: m 14s linear infinite; }
+    .w2 { animation: m 22s linear infinite reverse; opacity: 0.5; }
+    @keyframes m { to { transform: translateX(-1000px); } }
+  </style>
+  <path class="w1" fill="url(#w)" d="M0 55 Q125 15 250 55 T500 55 T750 55 T1000 55 T1250 55 T1500 55 T1750 55 T2000 55 V110 H0 Z"/>
+  <path class="w2" fill="#a78bfa" d="M0 70 Q125 35 250 70 T500 70 T750 70 T1000 70 T1250 70 T1500 70 T1750 70 T2000 70 V110 H0 Z"/>
+</svg>
