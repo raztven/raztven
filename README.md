@@ -55,46 +55,9 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="33%">
-
-**Languages**
-
-![Kotlin](https://img.shields.io/badge/Kotlin-161b22?style=flat-square&logo=kotlin&logoColor=7c3aed)
-![PHP](https://img.shields.io/badge/PHP-161b22?style=flat-square&logo=php&logoColor=818cf8)
-![JavaScript](https://img.shields.io/badge/JS-161b22?style=flat-square&logo=javascript&logoColor=eab308)
-![TypeScript](https://img.shields.io/badge/TS-161b22?style=flat-square&logo=typescript&logoColor=3b82f6)
-![Python](https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=60a5fa)
-![C++](https://img.shields.io/badge/C++-161b22?style=flat-square&logo=cplusplus&logoColor=6366f1)
-
-</td>
-<td align="center" width="33%">
-
-**Frontend & Mobile**
-
-![Laravel](https://img.shields.io/badge/Laravel-161b22?style=flat-square&logo=laravel&logoColor=f87171)
-![Vue](https://img.shields.io/badge/Vue_3-161b22?style=flat-square&logo=vue.js&logoColor=4ade80)
-![Tailwind](https://img.shields.io/badge/Tailwind-161b22?style=flat-square&logo=tailwind-css&logoColor=38bdf8)
-![Android](https://img.shields.io/badge/Android-161b22?style=flat-square&logo=android&logoColor=3DDC84)
-![Compose](https://img.shields.io/badge/Compose-161b22?style=flat-square&logo=jetpackcompose&logoColor=4285F4)
-![Inertia](https://img.shields.io/badge/Inertia-161b22?style=flat-square&logo=inertia&logoColor=9333ea)
-
-</td>
-<td align="center" width="33%">
-
-**Backend & Tools**
-
-![MySQL](https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=38bdf8)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=818cf8)
-![Supabase](https://img.shields.io/badge/Supabase-161b22?style=flat-square&logo=supabase&logoColor=3ECF8E)
-![Firebase](https://img.shields.io/badge/Firebase-161b22?style=flat-square&logo=firebase&logoColor=FFCA28)
-![Docker](https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=f05032)
-
-</td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=kotlin,php,js,ts,python,cpp&perline=6" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=laravel,vue,tailwind,androidstudio,supabase,firebase&perline=6" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,docker,git,figma,vscode&perline=6" />
 
 </div>
 
@@ -119,8 +82,8 @@
 <div align="center">
 
 <a href="https://github.com/raztven">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raztven&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=github" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raztven&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raztven&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=github&cache_seconds=1800" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raztven&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8&cache_seconds=1800" />
 </a>
 
 <br/><br/>
@@ -137,7 +100,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=raztven&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=7c3aed&point=e6edf3&area_color=7c3aed&area=true&hide_border=true" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=raztven&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=7c3aed&point=e6edf3&area_color=7c3aed&area=true&hide_border=true&radius=6" />
 
 </div>
 
