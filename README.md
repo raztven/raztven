@@ -1,37 +1,52 @@
-<!-- Header Gelombang Dinamis -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Farras%20Fadhil%20Hassan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20%7C%20Full-Stack%20%26%20Mobile%20Developer&descAlignY=58&descSize=18" width="100%" alt="Header" />
-</p>
-
-<!-- Efek Teks Mengetik Otomatis (Typing SVG) -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=D4+Teknologi+Rekayasa+Perangkat+Lunak;Full-Stack+Web+%26+Android+Developer;Building+Scalable+Apps+%26+IoT+Solutions" alt="Typing SVG" />
-</p>
-
-<!-- Ikon Tech Stack -->
-<h3 align="center">🛠️ Tech Stack & Tools</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,vue,js,tailwind,bootstrap,kotlin,cpp,mysql,supabase,git,github,vscode&perline=7" alt="Tech Stack" />
-</p>
+<!-- Banner Pixel Art Lo-Fi Coding -->
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzh6dGR6d2RlaG54amJ6emJ5c3B6eHhuZnd5b2R2Z3h6Z3h6Z3h6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" width="100%" height="240" style="object-fit: cover; border-radius: 10px;" alt="Coding Banner" />
+</div>
 
 <br/>
 
-<!-- Kartu Statistik GitHub (Tema Tokyo Night) -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=raztven&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raztven&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="Top Languages" />
-</p>
+<!-- Nama & Animasi Ketik -->
+<div align="center">
+  <h1>Hi there, I'm Farras Fadhil Hassan 👋</h1>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=2563EB&center=true&vCenter=true&width=550&lines=Software+Engineering+(TRPL)+Student;Full-Stack+Web+%26+Mobile+Developer;Building+Web+Apps+%26+Smart+IoT+Systems" alt="Typing SVG" />
+</div>
 
-<!-- Animasi Ular (Snake) Pemakan Commit -->
-<p align="center">
+<!-- Badge Profil Minimalis -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20Mobile-2563eb?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Lampung%2C%20Indonesia-0f172a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8" />
+  <img src="https://komarev.com/ghpvc/?username=raztven&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
+</div>
+
+<br/>
+
+<!-- Tabel Tech Stack Terstruktur -->
+<table align="center">
+  <tr>
+    <td align="center" width="33%"><b>🌐 Web & Backend</b></td>
+    <td align="center" width="33%"><b>📱 Mobile & System</b></td>
+    <td align="center" width="33%"><b>🗄️ Database & Tools</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=php,laravel,vue,js,tailwind,bootstrap&perline=3" />
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,cpp,arduino&perline=2" />
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=mysql,supabase,git,github,vscode&perline=3" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Animasi Snake Kontribusi -->
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/raztven/raztven/output/github-snake.svg" width="100%" />
   </picture>
-</p>
-
-<!-- Footer Gelombang -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" width="100%" alt="Footer" />
-</p>
+</div>
