@@ -16,26 +16,9 @@
 
 <div align="center">
 
-<h3>✦ About</h3>
+<h3>✦ Hello, World</h3>
 
-<table>
-  <tr>
-    <td align="right"><sub>🎓 education</sub></td>
-    <td><b>D4 Teknologi Rekayasa Perangkat Lunak · Politeknik Negeri Lampung</b></td>
-  </tr>
-  <tr>
-    <td align="right"><sub>💼 role</sub></td>
-    <td><b>Software Engineer · Full-Stack · Mobile Developer</b></td>
-  </tr>
-  <tr>
-    <td align="right"><sub>🔭 currently</sub></td>
-    <td>building impactful software solutions 🚀</td>
-  </tr>
-  <tr>
-    <td align="right"><sub>🤝 open to</sub></td>
-    <td>Freelance · Internship · Collaboration</td>
-  </tr>
-</table>
+<img src="assets/terminal.svg" width="90%" alt="terminal" />
 
 </div>
 
@@ -45,24 +28,9 @@
 
 <h3>✦ Tech Stack</h3>
 
-<table>
-  <tr>
-    <td align="right"><sub>languages</sub></td>
-    <td><img src="https://skillicons.dev/icons?i=kotlin,php,js,ts,python,cpp&perline=6" alt="languages" /></td>
-  </tr>
-  <tr>
-    <td align="right"><sub>frameworks</sub></td>
-    <td><img src="https://skillicons.dev/icons?i=laravel,vue,react,tailwind,vite,androidstudio&perline=6" alt="frameworks" /></td>
-  </tr>
-  <tr>
-    <td align="right"><sub>data &amp; tools</sub></td>
-    <td><img src="https://skillicons.dev/icons?i=supabase,firebase,mysql,postgres,docker,git&perline=6" alt="tools" /></td>
-  </tr>
-  <tr>
-    <td align="right"><sub>design &amp; editor</sub></td>
-    <td><img src="https://skillicons.dev/icons?i=figma,vscode&perline=6" alt="design" /></td>
-  </tr>
-</table>
+<img src="assets/skills.svg" width="100%" alt="skills" />
+
+<img src="assets/orbit.svg" width="90%" alt="tech orbit" />
 
 </div>
 
@@ -98,19 +66,13 @@
 
 <div align="center">
 
-<h3>✦ GitHub Stats</h3>
+<h3>✦ GitHub</h3>
 
+<img src="https://img.shields.io/github/followers/raztven?style=for-the-badge&logo=github&labelColor=1e1b4b&color=4c1d95" alt="followers" />
+<img src="https://img.shields.io/github/stars/raztven?style=for-the-badge&logo=github&labelColor=1e1b4b&color=4c1d95" alt="stars" />
+<img src="https://img.shields.io/github/created-at/raztven?style=for-the-badge&logo=github&labelColor=1e1b4b&color=4c1d95&label=joined" alt="joined" />
 
-
-</div>
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<div align="center">
-
-<h3>✦ Contribution Snake</h3>
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake-dark.svg"/>
@@ -135,10 +97,6 @@
 
 <sub>made with obsession by <a href="https://github.com/raztven">raztven</a></sub>
 
-</div>
-
-<div align="center">
-  <img src="assets/terminal.svg" width="90%" alt="terminal" />
 </div>
 
 <img src="assets/footer.svg" width="100%" alt="" />
