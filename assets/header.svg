@@ -99,7 +99,7 @@
   <rect x="1" y="1" width="998" height="298" rx="19" fill="none" stroke="#22d3ee" stroke-opacity="0.22"/>
 
   <text x="500" y="142" text-anchor="middle" font-size="52" font-weight="700"
-        font-family="JetBrains Mono, Menlo, Consolas, monospace" fill="url(#name)">Farras Fadhil Hassan</text>
+        font-family="JetBrains Mono, Menlo, Consolas, monospace" fill="url(#name)">raztven</text>
   <rect x="300" y="160" width="400" height="2" fill="url(#line)">
     <animate attributeName="width" values="120;400;120" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="x" values="440;300;440" dur="6s" repeatCount="indefinite"/>
@@ -107,5 +107,5 @@
   <text x="500" y="200" text-anchor="middle" font-size="16" letter-spacing="5"
         font-family="JetBrains Mono, Menlo, Consolas, monospace" fill="#67e8f9">SOFTWARE ENGINEER · FULL-STACK · MOBILE</text>
   <text x="500" y="232" text-anchor="middle" font-size="13" letter-spacing="2"
-        font-family="JetBrains Mono, Menlo, Consolas, monospace" fill="#94a3b8">D4 TRPL · POLITEKNIK NEGERI LAMPUNG</text>
+        font-family="JetBrains Mono, Menlo, Consolas, monospace" fill="#94a3b8">TRPL · POLITEKNIK NEGERI LAMPUNG</text>
 </svg>
