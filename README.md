@@ -1,37 +1,51 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=220&section=header&text=Farras%20Fadhil%20Hassan&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=55&desc=Software%20Engineer%20%7C%20Full-Stack%20%7C%20Mobile%20Developer&descAlignY=77&descSize=19&descColor=c7d2fe" />
-
-<a href="https://github.com/raztven">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1500&color=94A3B8&center=true&vCenter=true&width=640&height=30&lines=Software+Engineer+%7C+Full-Stack+%7C+Mobile;D4+TRPL+%40+Politeknik+Negeri+Lampung;open+to+internship+%26+collaboration+%F0%9F%9A%80" />
-</a>
-
 <br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=38&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=800&height=80&lines=Hi%2C+I'm+Farras+Fadhil+Hassan.;Software+Engineer.;Full-Stack+%26+Mobile+Developer." />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=3500&pause=1500&color=6E7681&center=true&vCenter=true&width=600&height=30&lines=D4+TRPL+%40+Politeknik+Negeri+Lampung;Open+to+Internship+%26+Collaboration;Building+Impactful+Software+Solutions" />
+
+<br/><br/>
 
 <p>
   <img src="https://img.shields.io/badge/-Software_Engineer-161b22?style=flat-square&logo=visualstudiocode&logoColor=58a6ff"/>
   <img src="https://img.shields.io/badge/-Full--Stack_Dev-161b22?style=flat-square&logo=laravel&logoColor=f87171"/>
   <img src="https://img.shields.io/badge/-Mobile_Dev-161b22?style=flat-square&logo=android&logoColor=3fb950"/>
+  <img src="https://img.shields.io/badge/-Lampung%2C_ID-161b22?style=flat-square&logo=googlemaps&logoColor=e879f9"/>
   <img src="https://komarev.com/ghpvc/?username=raztven&label=views&color=161b22&style=flat-square"/>
 </p>
 
 </div>
 
+<br/>
+
 ---
 
 <br/>
 
-```ts
-const raztven = {
-  name     : "Farras Fadhil Hassan",
-  alias    : "@raztven",
-  education: "D4 TRPL — Politeknik Negeri Lampung",
-  role     : "Software Engineer",
-  stack    : ["Laravel", "Vue 3", "Kotlin", "Jetpack Compose", "Supabase"],
-  currently: "building impactful software solutions",
-  openTo   : ["Freelance", "Internship", "Collaboration"],
-};
-```
+<div align="center">
+
+<table>
+  <tr>
+    <td align="right"><sub>🎓 education</sub></td>
+    <td><b>D4 TRPL · Politeknik Negeri Lampung</b></td>
+  </tr>
+  <tr>
+    <td align="right"><sub>💼 role</sub></td>
+    <td><b>Software Engineer · Full-Stack · Mobile Developer</b></td>
+  </tr>
+  <tr>
+    <td align="right"><sub>🔭 currently</sub></td>
+    <td>building impactful software solutions 🚀</td>
+  </tr>
+  <tr>
+    <td align="right"><sub>🤝 open to</sub></td>
+    <td>Freelance · Internship · Collaboration</td>
+  </tr>
+</table>
+
+</div>
 
 <br/>
 
@@ -123,6 +137,18 @@ const raztven = {
 
 <div align="center">
 
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=raztven&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=7c3aed&point=e6edf3&area_color=7c3aed&area=true&hide_border=true" />
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/raztven/raztven/output/github-snake.svg"/>
@@ -144,8 +170,10 @@ const raztven = {
 [![LinkedIn](https://img.shields.io/badge/linkedin-raztven-161b22?style=flat-square&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/raztven)
 [![Instagram](https://img.shields.io/badge/instagram-raztven-161b22?style=flat-square&logo=instagram&logoColor=e879f9)](https://instagram.com/raztven)
 
-<br/>
+<br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=100&section=footer&animation=twinkling"/>
+<sub>made with obsession by <a href="https://github.com/raztven">raztven</a></sub>
+
+<br/>
 
 </div>
