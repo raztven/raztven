@@ -1,0 +1,27 @@
+<svg width="1000" height="230" viewBox="0 0 1000 230" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text { font-family: 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 18px; }
+    .p { fill: #a78bfa; } .c { fill: #e6edf3; } .o { fill: #3fb950; } .d { fill: #8b949e; }
+    .l { opacity: 0; animation: show 0.01s forwards; }
+    .l1 { animation-delay: 0.5s; } .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 1.9s; }
+    .l4 { animation-delay: 2.6s; } .l5 { animation-delay: 3.3s; } .l6 { animation-delay: 4s; }
+    .cur { animation: blink 1s steps(2) infinite; fill: #a78bfa; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="1000" height="230" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect width="1000" height="38" rx="14" fill="#161b22"/>
+  <rect y="24" width="1000" height="14" fill="#161b22"/>
+  <circle cx="26" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="19" r="6" fill="#27c93f"/>
+  <text x="500" y="24" text-anchor="middle" class="d" style="font-size:13px">raztven@polinela: ~</text>
+
+  <g class="l l1"><text x="28" y="76"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text></g>
+  <g class="l l2"><text x="28" y="102" class="o">Farras Fadhil Hassan · Software Engineer</text></g>
+  <g class="l l3"><text x="28" y="136"><tspan class="p">$ </tspan><tspan class="c">cat stack.txt</tspan></text></g>
+  <g class="l l4"><text x="28" y="162" class="o">Laravel · Vue · React · Kotlin · Supabase</text></g>
+  <g class="l l5"><text x="28" y="196"><tspan class="p">$ </tspan><tspan class="c">status</tspan></text></g>
+  <g class="l l6"><text x="130" y="196" class="o">open to internship &amp; collaboration</text>
+    <rect class="cur" x="500" y="181" width="10" height="20"/></g>
+</svg>
