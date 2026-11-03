@@ -135,3 +135,9 @@
 <sub>made with obsession by <a href="https://github.com/raztven">raztven</a></sub>
 
 </div>
+
+<div align="center">
+  <img src="assets/terminal.svg" width="90%" alt="terminal" />
+</div>|
+
+<img src="assets/footer.svg" width="100%" alt="" />
