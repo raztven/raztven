@@ -100,8 +100,14 @@
 
 <h3>✦ GitHub Stats</h3>
 
-<img height="170" src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="profile details" />
-<img height="170" src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="most commit language" />
+<div align="center">
+
+<img src="https://img.shields.io/github/followers/raztven?style=for-the-badge&logo=github&labelColor=1e1b4b&color=4c1d95" alt="followers" />
+<img src="https://img.shields.io/github/stars/raztven?style=for-the-badge&logo=github&labelColor=1e1b4b&color=4c1d95" alt="stars" />
+<img src="https://img.shields.io/github/commit-activity/y/raztven/EcoQuest?style=for-the-badge&logo=git&labelColor=1e1b4b&color=4c1d95&label=commits%20(EcoQuest)" alt="commits" />
+<img src="https://img.shields.io/github/languages/top/raztven/EcoQuest?style=for-the-badge&labelColor=1e1b4b&color=4c1d95" alt="top language" />
+
+</div>
 
 </div>
 
