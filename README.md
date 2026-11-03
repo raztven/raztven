@@ -55,8 +55,14 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=kotlin,php,js,ts,python,cpp&perline=6" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=laravel,vue,tailwind,androidstudio,supabase,firebase&perline=6" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=kotlin,php,js,ts,python,cpp&perline=6" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=laravel,vue,tailwind,androidstudio,supabase,firebase&perline=6" />
+
+<br/><br/>
+
 <img src="https://skillicons.dev/icons?i=mysql,postgres,docker,git,figma,vscode&perline=6" />
 
 </div>
@@ -69,38 +75,14 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=raztven&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6" />
-
-</div>
-
-<br/>
-
----
+<p>
+  <img src="https://img.shields.io/github/followers/raztven?label=Followers&style=flat-square&logo=github&logoColor=white&labelColor=161b22&color=161b22"/>
+  <img src="https://img.shields.io/github/stars/raztven?label=Stars&style=flat-square&logo=github&logoColor=white&labelColor=161b22&color=161b22"/>
+</p>
 
 <br/>
-
-<div align="center">
-
-<a href="https://github.com/raztven">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raztven&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=github&cache_seconds=1800" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raztven&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8&cache_seconds=1800" />
-</a>
-
-<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=raztven&hide_border=true&background=0d1117&ring=7c3aed&fire=f87171&currStreakLabel=7c3aed&sideLabels=8b949e&dates=484f58&currStreakNum=e6edf3&sideNums=e6edf3&stroke=21262d" />
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=raztven&custom_title=Contribution%20Activity&bg_color=0d1117&color=58a6ff&line=7c3aed&point=e6edf3&area_color=7c3aed&area=true&hide_border=true&radius=6" />
 
 </div>
 
