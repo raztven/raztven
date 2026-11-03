@@ -138,6 +138,6 @@
 
 <div align="center">
   <img src="assets/terminal.svg" width="90%" alt="terminal" />
-</div>|
+</div>
 
 <img src="assets/footer.svg" width="100%" alt="" />
