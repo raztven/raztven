@@ -1,0 +1,49 @@
+<svg width="1000" height="130" viewBox="0 0 1000 130" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.1" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.9" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="1000" height="130" fill="url(#fade)"/></mask>
+
+    <g id="r1" font-family="JetBrains Mono, Menlo, Consolas, monospace" font-size="14" text-anchor="middle" fill="#e6edf3">
+      <rect x="0" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#7c3aed" stroke-opacity="0.6"/><text x="62" y="22">Laravel</text>
+      <rect x="140" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#3fb950" stroke-opacity="0.6"/><text x="202" y="22">Vue.js</text>
+      <rect x="280" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#58a6ff" stroke-opacity="0.6"/><text x="342" y="22">React</text>
+      <rect x="420" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.6"/><text x="482" y="22">Tailwind</text>
+      <rect x="560" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#a78bfa" stroke-opacity="0.6"/><text x="622" y="22">Vite</text>
+      <rect x="700" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#3fb950" stroke-opacity="0.6"/><text x="762" y="22">Supabase</text>
+      <rect x="840" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#e879f9" stroke-opacity="0.6"/><text x="902" y="22">Kotlin</text>
+      <rect x="980" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#3fb950" stroke-opacity="0.6"/><text x="1042" y="22">Compose</text>
+    </g>
+
+    <g id="r2" font-family="JetBrains Mono, Menlo, Consolas, monospace" font-size="14" text-anchor="middle" fill="#e6edf3">
+      <rect x="0" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#a78bfa" stroke-opacity="0.6"/><text x="62" y="22">PHP</text>
+      <rect x="140" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#facc15" stroke-opacity="0.6"/><text x="202" y="22">JavaScript</text>
+      <rect x="280" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#58a6ff" stroke-opacity="0.6"/><text x="342" y="22">TypeScript</text>
+      <rect x="420" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#facc15" stroke-opacity="0.6"/><text x="482" y="22">Python</text>
+      <rect x="560" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#58a6ff" stroke-opacity="0.6"/><text x="622" y="22">C++</text>
+      <rect x="700" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#f97316" stroke-opacity="0.6"/><text x="762" y="22">MySQL</text>
+      <rect x="840" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#58a6ff" stroke-opacity="0.6"/><text x="902" y="22">PostgreSQL</text>
+      <rect x="980" y="0" width="124" height="34" rx="17" fill="#1e1b4b" stroke="#22d3ee" stroke-opacity="0.6"/><text x="1042" y="22">Docker</text>
+    </g>
+  </defs>
+
+  <style>
+    .a { animation: left 28s linear infinite; }
+    .b { animation: right 34s linear infinite; }
+    @keyframes left  { to { transform: translateX(-1120px); } }
+    @keyframes right { from { transform: translateX(-1120px); } to { transform: translateX(0); } }
+  </style>
+
+  <g mask="url(#m)">
+    <g transform="translate(0,20)"><g class="a">
+      <use xlink:href="#r1"/><use xlink:href="#r1" x="1120"/>
+    </g></g>
+    <g transform="translate(0,76)"><g class="b">
+      <use xlink:href="#r2"/><use xlink:href="#r2" x="1120"/>
+    </g></g>
+  </g>
+</svg>
