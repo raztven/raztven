@@ -1,19 +1,17 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=2,3,12,20,24&height=220&text=raztven&fontSize=80&fontColor=ffffff&animation=twinkling&fontAlignY=65&desc=Full-Stack%20·%20Mobile%20Developer%20·%20IoT%20Engineer&descAlignY=85&descSize=17&descColor=a0aec0" alt="header"/>
-
-<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=220&section=header&text=Farras%20Fadhil%20Hassan&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=55&desc=Software%20Engineer%20%7C%20Full-Stack%20%7C%20Mobile%20Developer&descAlignY=77&descSize=19&descColor=c7d2fe" />
 
 <a href="https://github.com/raztven">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1500&color=94A3B8&center=true&vCenter=true&width=600&height=30&lines=open+to+internship+%26+collaboration+%F0%9F%9A%80;building+impactful+software+%26+IoT+solutions;D4+TRPL+%40+Politeknik+Negeri+Lampung" alt="Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1500&color=94A3B8&center=true&vCenter=true&width=640&height=30&lines=Software+Engineer+%7C+Full-Stack+%7C+Mobile;D4+TRPL+%40+Politeknik+Negeri+Lampung;open+to+internship+%26+collaboration+%F0%9F%9A%80" />
 </a>
 
 <br/>
 
 <p>
-  <img src="https://img.shields.io/badge/-Full--Stack_Web-161b22?style=flat-square&logo=visualstudiocode&logoColor=58a6ff"/>
-  <img src="https://img.shields.io/badge/-Android_Dev-161b22?style=flat-square&logo=android&logoColor=3fb950"/>
-  <img src="https://img.shields.io/badge/-IoT_Engineer-161b22?style=flat-square&logo=arduino&logoColor=a78bfa"/>
+  <img src="https://img.shields.io/badge/-Software_Engineer-161b22?style=flat-square&logo=visualstudiocode&logoColor=58a6ff"/>
+  <img src="https://img.shields.io/badge/-Full--Stack_Dev-161b22?style=flat-square&logo=laravel&logoColor=f87171"/>
+  <img src="https://img.shields.io/badge/-Mobile_Dev-161b22?style=flat-square&logo=android&logoColor=3fb950"/>
   <img src="https://komarev.com/ghpvc/?username=raztven&label=views&color=161b22&style=flat-square"/>
 </p>
 
@@ -26,9 +24,11 @@
 ```ts
 const raztven = {
   name     : "Farras Fadhil Hassan",
+  alias    : "@raztven",
   education: "D4 TRPL — Politeknik Negeri Lampung",
+  role     : "Software Engineer",
   stack    : ["Laravel", "Vue 3", "Kotlin", "Jetpack Compose", "Supabase"],
-  currently: "building impactful software & IoT solutions",
+  currently: "building impactful software solutions",
   openTo   : ["Freelance", "Internship", "Collaboration"],
 };
 ```
@@ -76,7 +76,7 @@ const raztven = {
 ![Supabase](https://img.shields.io/badge/Supabase-161b22?style=flat-square&logo=supabase&logoColor=3ECF8E)
 ![Firebase](https://img.shields.io/badge/Firebase-161b22?style=flat-square&logo=firebase&logoColor=FFCA28)
 ![Docker](https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED)
-![Arduino](https://img.shields.io/badge/Arduino-161b22?style=flat-square&logo=arduino&logoColor=00979D)
+![Git](https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=f05032)
 
 </td>
 </tr>
@@ -92,14 +92,26 @@ const raztven = {
 
 <div align="center">
 
+<img src="https://github-profile-trophy.vercel.app/?username=raztven&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6" />
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
 <a href="https://github.com/raztven">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raztven&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=raztven&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&include_all_commits=true&count_private=true&rank_icon=github" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raztven&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8" />
 </a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=raztven&hide_border=true&background=0d1117&ring=58a6ff&fire=f87171&currStreakLabel=58a6ff&sideLabels=8b949e&dates=484f58&currStreakNum=e6edf3&sideNums=e6edf3&stroke=21262d" />
+<img src="https://streak-stats.demolab.com?user=raztven&hide_border=true&background=0d1117&ring=7c3aed&fire=f87171&currStreakLabel=7c3aed&sideLabels=8b949e&dates=484f58&currStreakNum=e6edf3&sideNums=e6edf3&stroke=21262d" />
 
 </div>
 
@@ -134,6 +146,6 @@ const raztven = {
 
 <br/>
 
-<sub>made with obsession by <a href="https://github.com/raztven">raztven</a></sub>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=100&section=footer&animation=twinkling"/>
 
 </div>
