@@ -24,32 +24,6 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-<div align="center">
-
-<h3>✦ Tech Stack</h3>
-
-<img src="assets/skills.svg" width="100%" alt="skills" />
-
-<img src="assets/orbit.svg" width="90%" alt="tech orbit" />
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<div align="center">
-
-<h3>✦ Featured Projects</h3>
-
-<img src="assets/projects.svg" width="100%" alt="projects" />
-
-<br/>
-
-<a href="https://github.com/raztven/EcoQuest"><img src="https://img.shields.io/badge/-EcoQuest-0b1730?style=for-the-badge&logo=github&logoColor=67e8f9" alt="EcoQuest"/></a>
-<a href="https://github.com/raztven/AbsenSiswa"><img src="https://img.shields.io/badge/-AbsenSiswa-0b1730?style=for-the-badge&logo=github&logoColor=67e8f9" alt="AbsenSiswa"/></a>
-<a href="https://github.com/raztven/V2peternak"><img src="https://img.shields.io/badge/-V2peternak-0b1730?style=for-the-badge&logo=github&logoColor=67e8f9" alt="V2peternak"/></a>
-
-</div>
-
 <img src="assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
