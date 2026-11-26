@@ -1,62 +1,170 @@
-<svg width="1000" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="420" viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#e879f9"/>
-      <stop offset="60%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    <radialGradient id="hudBg" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0%" stop-color="#0b1d42"/>
+      <stop offset="65%" stop-color="#060f26"/>
+      <stop offset="100%" stop-color="#030712"/>
     </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="45%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="panelBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1b3b"/>
+      <stop offset="100%" stop-color="#071026"/>
+    </linearGradient>
   </defs>
 
-  <g transform="translate(500,200)" font-family="JetBrains Mono, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">
-    <circle r="150" fill="none" stroke="#7c3aed" stroke-opacity="0.25" stroke-dasharray="4 8"/>
-    <circle r="105" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-dasharray="4 8"/>
-    <circle r="62" fill="none" stroke="#e879f9" stroke-opacity="0.3" stroke-dasharray="4 8"/>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .radar { animation: radarSpin 10s linear infinite; }
+    @keyframes radarSpin { to { transform: rotate(360deg); } }
+    .flowL { stroke-dasharray: 8 10; animation: dashMoveL 2.4s linear infinite; }
+    .flowR { stroke-dasharray: 8 10; animation: dashMoveR 2.4s linear infinite; }
+    @keyframes dashMoveL { to { stroke-dashoffset: -36; } }
+    @keyframes dashMoveR { to { stroke-dashoffset: 36; } }
+  </style>
 
-    <circle r="46" fill="url(#core)">
-      <animate attributeName="r" values="42;50;42" dur="4s" repeatCount="indefinite"/>
+  <!-- Outer Cosmic HUD Card -->
+  <rect width="1000" height="420" rx="18" fill="url(#hudBg)" stroke="#22d3ee" stroke-opacity="0.24" stroke-width="1.2"/>
+
+  <!-- Subtle Background Grid & Stars -->
+  <g stroke="#22d3ee" stroke-opacity="0.05" stroke-width="1">
+    <line x1="500" y1="18" x2="500" y2="402"/>
+    <line x1="260" y1="210" x2="740" y2="210"/>
+  </g>
+  <g fill="#a5f3fc">
+    <circle cx="310" cy="52" r="1.4" opacity="0.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="64" r="1.6" opacity="0.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.7s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="290" cy="360" r="1.5" opacity="0.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="355" r="1.4" opacity="0.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.9s" begin="1.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Connector Circuit Lines -->
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.32" stroke-width="1.4">
+    <path class="flowL" d="M 248 92 L 305 92 L 360 140"/>
+    <path class="flowL" d="M 248 210 L 332 210"/>
+    <path class="flowL" d="M 248 328 L 305 328 L 360 280"/>
+    <path class="flowR" d="M 752 92 L 695 92 L 640 140"/>
+    <path class="flowR" d="M 752 210 L 668 210"/>
+    <path class="flowR" d="M 752 328 L 695 328 L 640 280"/>
+  </g>
+
+  <!-- LEFT TELEMETRY CARDS -->
+  <g transform="translate(28, 48)">
+    <rect width="220" height="88" rx="12" fill="url(#panelBg)" stroke="#22d3ee" stroke-opacity="0.28"/>
+    <circle cx="18" cy="24" r="4" fill="#22d3ee"/>
+    <text x="30" y="28" class="mono" font-size="11" font-weight="700" fill="#fbbf24" letter-spacing="1.4">ARCHITECTURE</text>
+    <text x="18" y="52" class="mono" font-size="12.5" fill="#e2e8f0">Clean Code · MVC · MVVM</text>
+    <text x="18" y="72" class="mono" font-size="11" fill="#94a3b8">Modular &amp; Scalable Design</text>
+  </g>
+
+  <g transform="translate(28, 166)">
+    <rect width="220" height="88" rx="12" fill="url(#panelBg)" stroke="#38bdf8" stroke-opacity="0.28"/>
+    <circle cx="18" cy="24" r="4" fill="#10b981"/>
+    <text x="30" y="28" class="mono" font-size="11" font-weight="700" fill="#67e8f9" letter-spacing="1.4">WEB ECOSYSTEM</text>
+    <text x="18" y="52" class="mono" font-size="12.5" fill="#e2e8f0">Laravel · Vue · React</text>
+    <text x="18" y="72" class="mono" font-size="11" fill="#94a3b8">Tailwind CSS · Vite · TS</text>
+  </g>
+
+  <g transform="translate(28, 284)">
+    <rect width="220" height="88" rx="12" fill="url(#panelBg)" stroke="#c084fc" stroke-opacity="0.28"/>
+    <circle cx="18" cy="24" r="4" fill="#c084fc"/>
+    <text x="30" y="28" class="mono" font-size="11" font-weight="700" fill="#c084fc" letter-spacing="1.4">MOBILE NATIVE</text>
+    <text x="18" y="52" class="mono" font-size="12.5" fill="#e2e8f0">Kotlin · Compose</text>
+    <text x="18" y="72" class="mono" font-size="11" fill="#94a3b8">Modern Material 3 Android</text>
+  </g>
+
+  <!-- RIGHT TELEMETRY CARDS -->
+  <g transform="translate(752, 48)">
+    <rect width="220" height="88" rx="12" fill="url(#panelBg)" stroke="#34d399" stroke-opacity="0.28"/>
+    <circle cx="18" cy="24" r="4" fill="#34d399"/>
+    <text x="30" y="28" class="mono" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.4">DATA &amp; CLOUD</text>
+    <text x="18" y="52" class="mono" font-size="12.5" fill="#e2e8f0">Supabase · MySQL · PG</text>
+    <text x="18" y="72" class="mono" font-size="11" fill="#94a3b8">Relational &amp; Realtime BaaS</text>
+  </g>
+
+  <g transform="translate(752, 166)">
+    <rect width="220" height="88" rx="12" fill="url(#panelBg)" stroke="#fbbf24" stroke-opacity="0.28"/>
+    <circle cx="18" cy="24" r="4" fill="#fbbf24"/>
+    <text x="30" y="28" class="mono" font-size="11" font-weight="700" fill="#fbbf24" letter-spacing="1.4">INNOVATION</text>
+    <text x="18" y="52" class="mono" font-size="12.5" fill="#e2e8f0">IoT · AI · UML Modeling</text>
+    <text x="18" y="72" class="mono" font-size="11" fill="#94a3b8">Smart Systems &amp; Analysis</text>
+  </g>
+
+  <g transform="translate(752, 284)">
+    <rect width="220" height="88" rx="12" fill="url(#panelBg)" stroke="#22d3ee" stroke-opacity="0.28"/>
+    <circle cx="18" cy="24" r="4" fill="#38bdf8"/>
+    <text x="30" y="28" class="mono" font-size="11" font-weight="700" fill="#67e8f9" letter-spacing="1.4">WORKFLOW &amp; OPS</text>
+    <text x="18" y="52" class="mono" font-size="12.5" fill="#e2e8f0">Docker · Git · Vercel</text>
+    <text x="18" y="72" class="mono" font-size="11" fill="#94a3b8">CI/CD &amp; Automated Pipelines</text>
+  </g>
+
+  <!-- CENTER ORBITAL SOLAR SYSTEM -->
+  <g transform="translate(500, 210)" font-family="'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="middle">
+    <!-- Radar Sweep Wedge -->
+    <g class="radar">
+      <path d="M 0 0 L 0 -168 A 168 168 0 0 1 118 -118 Z" fill="url(#sweep)"/>
+    </g>
+
+    <!-- Orbital Rings -->
+    <circle r="168" fill="none" stroke="#38bdf8" stroke-opacity="0.28" stroke-dasharray="5 8"/>
+    <circle r="118" fill="none" stroke="#22d3ee" stroke-opacity="0.34" stroke-dasharray="4 7"/>
+    <circle r="68" fill="none" stroke="#fbbf24" stroke-opacity="0.4" stroke-dasharray="3 6"/>
+
+    <!-- Pulsing Core -->
+    <circle r="48" fill="url(#core)">
+      <animate attributeName="r" values="42;52;42" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <text y="5" fill="#ffffff" font-weight="700" font-size="13">raztven</text>
+    <circle r="30" fill="#07132c" stroke="#67e8f9" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text y="1" fill="#ffffff" font-weight="700" font-size="13">raztven</text>
+    <text y="15" fill="#67e8f9" font-size="8.5" letter-spacing="1.5">CORE</text>
 
-    <!-- ring 1 -->
+    <!-- Ring 1 (r=68, 16s) -->
     <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
-      <g transform="translate(62,0)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="16s" repeatCount="indefinite"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#1e1b4b" stroke="#e879f9"/><text y="4" fill="#e6edf3">Kotlin</text></g></g>
+      <g transform="translate(68,0)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="16s" repeatCount="indefinite"/>
+        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#09152e" stroke="#fbbf24"/><text y="4" fill="#fde68a">Kotlin</text></g></g>
     </g>
     <g><animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="16s" repeatCount="indefinite"/>
-      <g transform="translate(62,0)"><g><animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="16s" repeatCount="indefinite"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#1e1b4b" stroke="#3fb950"/><text y="4" fill="#e6edf3">Compose</text></g></g>
+      <g transform="translate(68,0)"><g><animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="16s" repeatCount="indefinite"/>
+        <rect x="-36" y="-12" width="72" height="24" rx="12" fill="#09152e" stroke="#34d399"/><text y="4" fill="#a7f3d0">Compose</text></g></g>
     </g>
 
-    <!-- ring 2 -->
+    <!-- Ring 2 (r=118, 26s reverse) -->
     <g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite"/>
-      <g transform="translate(105,0)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#1e1b4b" stroke="#a78bfa"/><text y="4" fill="#e6edf3">Laravel</text></g></g>
+      <g transform="translate(118,0)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite"/>
+        <rect x="-36" y="-12" width="72" height="24" rx="12" fill="#09152e" stroke="#f43f5e"/><text y="4" fill="#fecdd3">Laravel</text></g></g>
     </g>
     <g><animateTransform attributeName="transform" type="rotate" from="120" to="-240" dur="26s" repeatCount="indefinite"/>
-      <g transform="translate(105,0)"><g><animateTransform attributeName="transform" type="rotate" from="-120" to="240" dur="26s" repeatCount="indefinite"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#1e1b4b" stroke="#3fb950"/><text y="4" fill="#e6edf3">Vue.js</text></g></g>
+      <g transform="translate(118,0)"><g><animateTransform attributeName="transform" type="rotate" from="-120" to="240" dur="26s" repeatCount="indefinite"/>
+        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#09152e" stroke="#10b981"/><text y="4" fill="#a7f3d0">Vue.js</text></g></g>
     </g>
     <g><animateTransform attributeName="transform" type="rotate" from="240" to="-120" dur="26s" repeatCount="indefinite"/>
-      <g transform="translate(105,0)"><g><animateTransform attributeName="transform" type="rotate" from="-240" to="120" dur="26s" repeatCount="indefinite"/>
-        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#1e1b4b" stroke="#58a6ff"/><text y="4" fill="#e6edf3">React</text></g></g>
+      <g transform="translate(118,0)"><g><animateTransform attributeName="transform" type="rotate" from="-240" to="120" dur="26s" repeatCount="indefinite"/>
+        <rect x="-32" y="-12" width="64" height="24" rx="12" fill="#09152e" stroke="#38bdf8"/><text y="4" fill="#bae6fd">React</text></g></g>
     </g>
 
-    <!-- ring 3 -->
+    <!-- Ring 3 (r=168, 38s) -->
     <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite"/>
-      <g transform="translate(150,0)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="38s" repeatCount="indefinite"/>
-        <rect x="-38" y="-12" width="76" height="24" rx="12" fill="#1e1b4b" stroke="#3fb950"/><text y="4" fill="#e6edf3">Supabase</text></g></g>
+      <g transform="translate(168,0)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="38s" repeatCount="indefinite"/>
+        <rect x="-40" y="-12" width="80" height="24" rx="12" fill="#09152e" stroke="#34d399"/><text y="4" fill="#a7f3d0">Supabase</text></g></g>
     </g>
     <g><animateTransform attributeName="transform" type="rotate" from="90" to="450" dur="38s" repeatCount="indefinite"/>
-      <g transform="translate(150,0)"><g><animateTransform attributeName="transform" type="rotate" from="-90" to="-450" dur="38s" repeatCount="indefinite"/>
-        <rect x="-38" y="-12" width="76" height="24" rx="12" fill="#1e1b4b" stroke="#22d3ee"/><text y="4" fill="#e6edf3">Tailwind</text></g></g>
+      <g transform="translate(168,0)"><g><animateTransform attributeName="transform" type="rotate" from="-90" to="-450" dur="38s" repeatCount="indefinite"/>
+        <rect x="-40" y="-12" width="80" height="24" rx="12" fill="#09152e" stroke="#22d3ee"/><text y="4" fill="#a5f3fc">Tailwind</text></g></g>
     </g>
     <g><animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="38s" repeatCount="indefinite"/>
-      <g transform="translate(150,0)"><g><animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="38s" repeatCount="indefinite"/>
-        <rect x="-38" y="-12" width="76" height="24" rx="12" fill="#1e1b4b" stroke="#facc15"/><text y="4" fill="#e6edf3">Python</text></g></g>
+      <g transform="translate(168,0)"><g><animateTransform attributeName="transform" type="rotate" from="-180" to="-540" dur="38s" repeatCount="indefinite"/>
+        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#09152e" stroke="#facc15"/><text y="4" fill="#fef08a">Python</text></g></g>
     </g>
     <g><animateTransform attributeName="transform" type="rotate" from="270" to="630" dur="38s" repeatCount="indefinite"/>
-      <g transform="translate(150,0)"><g><animateTransform attributeName="transform" type="rotate" from="-270" to="-630" dur="38s" repeatCount="indefinite"/>
-        <rect x="-38" y="-12" width="76" height="24" rx="12" fill="#1e1b4b" stroke="#f97316"/><text y="4" fill="#e6edf3">MySQL</text></g></g>
+      <g transform="translate(168,0)"><g><animateTransform attributeName="transform" type="rotate" from="-270" to="-630" dur="38s" repeatCount="indefinite"/>
+        <rect x="-34" y="-12" width="68" height="24" rx="12" fill="#09152e" stroke="#f97316"/><text y="4" fill="#fed7aa">MySQL</text></g></g>
     </g>
   </g>
 </svg>

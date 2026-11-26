@@ -1,27 +1,149 @@
-<svg width="1000" height="230" viewBox="0 0 1000 230" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    text { font-family: 'JetBrains Mono', Menlo, Consolas, monospace; font-size: 18px; }
-    .p { fill: #a78bfa; } .c { fill: #e6edf3; } .o { fill: #3fb950; } .d { fill: #8b949e; }
-    .l { opacity: 0; animation: show 0.01s forwards; }
-    .l1 { animation-delay: 0.5s; } .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 1.9s; }
-    .l4 { animation-delay: 2.6s; } .l5 { animation-delay: 3.3s; } .l6 { animation-delay: 4s; }
-    .cur { animation: blink 1s steps(2) infinite; fill: #a78bfa; }
-    @keyframes show { to { opacity: 1; } }
-    @keyframes blink { 50% { opacity: 0; } }
-  </style>
-  <rect width="1000" height="230" rx="14" fill="#0d1117" stroke="#30363d"/>
-  <rect width="1000" height="38" rx="14" fill="#161b22"/>
-  <rect y="24" width="1000" height="14" fill="#161b22"/>
-  <circle cx="26" cy="19" r="6" fill="#ff5f56"/>
-  <circle cx="48" cy="19" r="6" fill="#ffbd2e"/>
-  <circle cx="70" cy="19" r="6" fill="#27c93f"/>
-  <text x="500" y="24" text-anchor="middle" class="d" style="font-size:13px">raztven@polinela: ~</text>
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050b1a"/>
+      <stop offset="100%" stop-color="#09132c"/>
+    </linearGradient>
+    <linearGradient id="cyanBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="goldBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="emeraldBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
 
-  <g class="l l1"><text x="28" y="76"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text></g>
-  <g class="l l2"><text x="28" y="102" class="o">Farras Fadhil Hassan · Software Engineer</text></g>
-  <g class="l l3"><text x="28" y="136"><tspan class="p">$ </tspan><tspan class="c">cat stack.txt</tspan></text></g>
-  <g class="l l4"><text x="28" y="162" class="o">Laravel · Vue · React · Kotlin · Supabase</text></g>
-  <g class="l l5"><text x="28" y="196"><tspan class="p">$ </tspan><tspan class="c">status</tspan></text></g>
-  <g class="l l6"><text x="130" y="196" class="o">open to internship &amp; collaboration</text>
-    <rect class="cur" x="500" y="181" width="10" height="20"/></g>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .cmd { font-size: 14px; fill: #e2e8f0; }
+    .prompt { font-size: 14px; fill: #22d3ee; font-weight: 700; }
+    .outCyan { font-size: 13.5px; fill: #67e8f9; }
+    .outLight { font-size: 13.5px; fill: #cbd5e1; }
+    .outGold { font-size: 13px; fill: #fde68a; }
+    .outGreen { font-size: 13.5px; fill: #34d399; font-weight: 600; }
+    .label { font-size: 11px; fill: #94a3b8; letter-spacing: 0.5px; }
+    .pct { font-size: 11px; fill: #e2e8f0; font-weight: 700; }
+
+    .l { opacity: 0; animation: show 0.08s forwards; }
+    .l1 { animation-delay: 0.3s; }
+    .l2 { animation-delay: 0.8s; }
+    .l3 { animation-delay: 1.2s; }
+    .l4 { animation-delay: 1.8s; }
+    .l5 { animation-delay: 2.4s; }
+    .l6 { animation-delay: 3.0s; }
+    .l7 { animation-delay: 3.6s; }
+    .l8 { animation-delay: 4.1s; }
+    @keyframes show { to { opacity: 1; } }
+
+    .cur { animation: blink 1s steps(2) infinite; fill: #22d3ee; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .pulseWave { stroke-dasharray: 420; stroke-dashoffset: 420; animation: waveRun 4s linear infinite; }
+    @keyframes waveRun {
+      0% { stroke-dashoffset: 420; opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 0.5; }
+    }
+  </style>
+
+  <!-- Outer Window -->
+  <rect width="1000" height="300" rx="16" fill="url(#termBg)" stroke="#22d3ee" stroke-opacity="0.32" stroke-width="1.2"/>
+  <rect width="1000" height="38" rx="16" fill="#0c1a3a"/>
+  <rect y="22" width="1000" height="16" fill="#0c1a3a"/>
+  <line x1="0" y1="38" x2="1000" y2="38" stroke="#22d3ee" stroke-opacity="0.18"/>
+
+  <!-- Traffic Lights -->
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+
+  <!-- Title Bar -->
+  <text x="500" y="23" text-anchor="middle" class="mono" font-size="12.5" fill="#94a3b8">zsh — raztven@polinela: ~/portfolio — 120×32</text>
+
+  <!-- Top Right SSH Badge -->
+  <rect x="860" y="9" width="120" height="20" rx="10" fill="#062038" stroke="#34d399" stroke-opacity="0.45"/>
+  <circle cx="874" cy="19" r="3.5" fill="#34d399">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="884" y="23" class="mono" font-size="10.5" fill="#34d399">SSH: ACTIVE</text>
+
+  <!-- Split Pane Divider -->
+  <line x1="575" y1="52" x2="575" y2="284" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- LEFT PANE: Terminal Session -->
+  <g class="l l1">
+    <text x="24" y="72" class="mono"><tspan class="prompt">❯ </tspan><tspan class="cmd">whoami --verbose</tspan></text>
+  </g>
+  <g class="l l2">
+    <text x="24" y="96" class="mono outCyan">  → Farras Fadhil Hassan (@raztven)</text>
+  </g>
+  <g class="l l3">
+    <text x="24" y="118" class="mono outLight">  → D4 Software Engineering (TRPL) @ Polinela</text>
+  </g>
+
+  <g class="l l4">
+    <text x="24" y="150" class="mono"><tspan class="prompt">❯ </tspan><tspan class="cmd">cat focus_areas.json</tspan></text>
+  </g>
+  <g class="l l5">
+    <text x="24" y="174" class="mono outGold">  {"web": ["Laravel","Vue","React"], "mobile": ["Kotlin","Compose"]}</text>
+  </g>
+
+  <g class="l l6">
+    <text x="24" y="206" class="mono"><tspan class="prompt">❯ </tspan><tspan class="cmd">./status.sh --check</tspan></text>
+  </g>
+  <g class="l l7">
+    <text x="24" y="230" class="mono outGreen">  ✔ [AVAILABLE] Open to Internship, Freelance &amp; Collaboration</text>
+  </g>
+
+  <g class="l l8">
+    <text x="24" y="266" class="mono"><tspan class="prompt">❯ </tspan><tspan class="cmd">git commit -m "build impactful software"</tspan></text>
+    <rect class="cur" x="380" y="252" width="9" height="17" rx="1"/>
+  </g>
+
+  <!-- RIGHT PANE: Live Capability Telemetry -->
+  <text x="600" y="68" class="mono" font-size="12" font-weight="700" fill="#fbbf24" letter-spacing="1.6">⚡ LIVE CAPABILITY TELEMETRY</text>
+
+  <!-- Bar 1 -->
+  <text x="600" y="94" class="mono label">FULL-STACK WEB (Laravel / Vue / React)</text>
+  <text x="974" y="94" text-anchor="end" class="mono pct">90%</text>
+  <rect x="600" y="101" width="374" height="8" rx="4" fill="#0f224a"/>
+  <rect x="600" y="101" width="336" height="8" rx="4" fill="url(#cyanBar)">
+    <animate attributeName="width" from="0" to="336" dur="1.2s" fill="freeze"/>
+  </rect>
+
+  <!-- Bar 2 -->
+  <text x="600" y="131" class="mono label">MOBILE ANDROID (Kotlin / Compose)</text>
+  <text x="974" y="131" text-anchor="end" class="mono pct">82%</text>
+  <rect x="600" y="138" width="374" height="8" rx="4" fill="#0f224a"/>
+  <rect x="600" y="138" width="306" height="8" rx="4" fill="url(#goldBar)">
+    <animate attributeName="width" from="0" to="306" dur="1.4s" fill="freeze"/>
+  </rect>
+
+  <!-- Bar 3 -->
+  <text x="600" y="168" class="mono label">DATABASE &amp; BAAS (MySQL / PG / Supabase)</text>
+  <text x="974" y="168" text-anchor="end" class="mono pct">85%</text>
+  <rect x="600" y="175" width="374" height="8" rx="4" fill="#0f224a"/>
+  <rect x="600" y="175" width="318" height="8" rx="4" fill="url(#emeraldBar)">
+    <animate attributeName="width" from="0" to="318" dur="1.6s" fill="freeze"/>
+  </rect>
+
+  <!-- Bar 4 -->
+  <text x="600" y="205" class="mono label">SYSTEM DESIGN, IOT &amp; DEVOPS (UML / Docker)</text>
+  <text x="974" y="205" text-anchor="end" class="mono pct">78%</text>
+  <rect x="600" y="212" width="374" height="8" rx="4" fill="#0f224a"/>
+  <rect x="600" y="212" width="292" height="8" rx="4" fill="url(#cyanBar)">
+    <animate attributeName="width" from="0" to="292" dur="1.8s" fill="freeze"/>
+  </rect>
+
+  <!-- Telemetry Pulse Mini-Box -->
+  <rect x="600" y="236" width="374" height="44" rx="10" fill="#08142e" stroke="#22d3ee" stroke-opacity="0.22"/>
+  <path d="M 614 258 L 650 258 L 662 246 L 674 270 L 686 250 L 698 258 L 760 258" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  <path class="pulseWave" d="M 614 258 L 650 258 L 662 246 L 674 270 L 686 250 L 698 258 L 760 258" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+  <text x="774" y="255" class="mono" font-size="10.5" fill="#67e8f9">MODE: HIGH_OBSESSION</text>
+  <text x="774" y="270" class="mono" font-size="10" fill="#94a3b8">BUGS_SQUASHED: ∞ · COFFEE: ON</text>
 </svg>
