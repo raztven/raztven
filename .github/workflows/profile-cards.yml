@@ -20,7 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          THEMES: "algolia,tokyonight,default"
+          THEMES: "algolia,default"
 
       - name: Commit output
         run: |
